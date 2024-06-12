@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        
+        body {
+        font-family: 'Work Sans', Arial, Helvetica;
+        /* 
+        Medidas Absolutas 
+        cm, mm, in, px, pt, pc 
+        
+        Medidas Relativas
+        em, ex, rem, vw, vh, %
+        16px geralmente = 1em
+
+        Recomendação é usar em ou px.
+        */
+        font-size: 1em;
+        /* lighter normal bold bolder */
+        /* wight width height */
+    }
+
+       h1 {
+        /* shorthand font
+        - font-style -> font-weight -> font-size -> font-family
+        */
+        /* font-weight: bolder;
+        font-size: 3em;
+        font-style: italic; */
+        font: italic bolder 3em sans-serif;
+       }
+
+       h2 { 
+        font: bold 2em 'Work Sans'
+       }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse est repudiandae officiis numquam deleniti placeat? Sint delectus dolorem molestiae autem nihil unde excepturi odio quas fuga, mollitia accusantium! Optio, temporibus.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia culpa assumenda aliquam qui, suscipit delectus incidunt itaque distinctio in quidem, voluptate quam libero omnis officiis quae asperiores facilis dolorem id.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quisquam fugiat voluptatem, atque alias odit consequatur molestiae sequi repudiandae. Quas eveniet omnis quasi. Perferendis laboriosam tempore explicabo illo nesciunt libero.</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ea cupiditate pariatur, modi corporis possimus veniam porro facere ab dolor mollitia eaque consequatur, quis libero facilis cum, rerum earum qui.</p>
+
+
+</body>
+</html>
